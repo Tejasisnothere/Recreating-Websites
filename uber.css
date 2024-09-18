@@ -1,0 +1,88 @@
+.request{
+    font-size: 40px;
+    font-family: Arial;
+}
+
+.location, .destination{
+    background-color: rgb(245, 242, 242);
+    color: rgb(35, 34, 34);
+    height: 40px;
+    width: 350px;
+    display: block;
+    border: none;
+    margin-bottom: 30px;
+    transition: box-shadow 0.3s ease;
+
+    
+}
+
+
+.location:focus, .destination:focus {
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3), 0 1px 2px rgba(60, 64, 67, 0.15); /* Focus shadow */
+    border-color: #dfe1e5;
+    outline: none;
+}
+
+.location:hover, .destination:hover{
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3), 0 1px 2px rgba(60, 64, 67, 0.15); /* Focus shadow */
+    border-color: #dfe1e5;
+    cursor: pointer;
+
+}
+
+
+.location:active{
+    border: none;
+
+}
+
+.now:hover{
+    opacity: 0.75;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(99, 99, 99, 0.3), 0 1px 2px rgba(60, 64, 67, 0.15); /* Focus shadow */
+    border-color: #dfe1e5;
+    cursor: pointer;
+}
+
+.now:active{
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+.now{
+    background-color: black;
+    color:white;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+    display: inline-block;
+}
+
+.schedule{
+    background-color:rgb(245, 242, 242);
+    color:black;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+    border: none;
+    display: inline-block;
+    
+}
+
+.schedule:hover{
+    opacity: 0.75;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(99, 99, 99, 0.3), 0 1px 2px rgba(60, 64, 67, 0.15); /* Focus shadow */
+    border-color: #dfe1e5;
+    cursor: pointer;
+
+
+}
+
+.schedule:active{
+    background-color:rgb(226, 222, 222);
+}
